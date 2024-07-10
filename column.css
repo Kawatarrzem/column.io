@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca',sans-serif;
+}
+body{
+    background-color:white ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(216, 112, 147, 0.418) ;
+}
+
+.card{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height:auto ;
+    width:140vh;
+    padding: 50px;
+
+    
+   
+}
+.card .orange{
+    background-color: rgb(247, 118, 72);
+    padding: 28px;
+    height: 400px;
+
+}
+.card .blue{
+    background-color: hsl(184, 81%, 27%,0.5);
+    padding: 25px;
+    height: 400px;
+
+}
+.card .green{
+
+    background-color: hsl(179, 67%, 16%,0.6);
+    padding: 25px;
+    height: 400px;
+
+}
+
+ img{
+    padding-bottom: 15px;
+    width:50px ;
+}
+h2{
+    color: white;
+    text-transform:uppercase;
+    font-family: "Big Shoulders Display",sans-serif;
+    font-size: 700;
+    padding-bottom: 40px;
+
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 80px;
+    font-weight:400 ;
+    font-size: 15px;
+     
+}
+button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color:transparent;
+    padding-left:38px;
+    padding-right: 38px;
+    border-radius: 40px;
+    background: hsl(0, 0%, 95%);
+    cursor: pointer;
+    border: solid white;
+    font-size: 17px;
+    transition: all 0.3s;
+
+}
+
+
+
+.orange button{
+    color: rgb(247, 118, 72);
+
+}
+.blue button{
+    color:hsl(184, 81%, 27%,0.5) ;
+}
+.green button{
+    color: hsl(179, 67%, 16%,0.6);
+}
+
+button:hover{
+   
+   background: transparent;
+   border: solid white;
+   color: white;
+   
+}
+
+
+
+
